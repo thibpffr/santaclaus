@@ -1,1 +1,65 @@
 /* TODO CSS */
+/* TODO CSS */
+#big-gift{
+    width:250px;
+    height:250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#medium-gift{
+    width:150px;
+    height:150px;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+#small-gift{
+    width:100px;
+    height:100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.prop{
+    border-radius: 25px;
+    background: #D3D3D3;
+    padding: 20px;
+    margin-left: 2%;
+    width:300px;
+    height:300px;
+    margin-top: auto;
+    margin-bottom: 2%;
+}
+
+
+.btn-circle.btn-xl {
+    width: 170px;
+    height: 170px;
+    padding: 10px 16px;
+    border-radius: 105px;
+    text-align: center;
+    line-height: 1.33;
+}
+
+#sleigh{
+    width:30px;
+    height:30px;
+}
+#plus{
+    width:50px;
+    height:50px;
+}
+#deliver-btn{
+    text-align: center;
+}
+.console{
+    border-radius: 25px;
+    background: #D3D3D3;
+    padding: 20px;
+    margin-left: 2%;
+    
+    margin-top: 2px;
+    margin-bottom: auto;
+    max-height: 150px;
+    
+}
