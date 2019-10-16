@@ -1,47 +1,52 @@
 /* TODO CSS */
 /* TODO CSS */
 #big-gift{
-    width:250px;
-    height:250px;
+    width:200px;
+    height:200px;
     margin-top: auto;
     margin-bottom: auto;
 }
 #medium-gift{
-    width:150px;
-    height:150px;
+    width:120px;
+    height:120px;
     margin-top: auto;
     margin-bottom: auto;
+    display: inline-block;
+    vertical-align: middle;
    
 }
 
 #small-gift{
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
     margin-top: auto;
     margin-bottom: auto;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .prop{
     border-radius: 25px;
     background: #D3D3D3;
     padding: 20px;
     margin-left: 2%;
-    width:300px;
-    height:300px;
+    height:250px;
     margin-top: auto;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 
 .btn-circle.btn-xl {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     padding: 10px 16px;
     border-radius: 105px;
     text-align: center;
     line-height: 1.33;
+    margin-bottom: 5%;
 }
 
-#sleigh{
+#image{
     width:30px;
     height:30px;
 }
@@ -57,9 +62,16 @@
     background: #D3D3D3;
     padding: 20px;
     margin-left: 2%;
-    
+    vertical-align: middle;
     margin-top: 2px;
     margin-bottom: auto;
-    max-height: 150px;
-    
+    height: auto;
+   
+}
+.console2{
+    height:100px;
+}
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+body{
+    font-family: 'Mountains of Christmas', cursive;
 }

@@ -32,7 +32,7 @@ export class Sled {
     displaySled() {
         let str = ""
         for (let i = 0; i < this.gifts.length; i++) {
-            str += "<li> Gift " + (i + 1) + " : " + this.gifts[i].constructor.name + "</li>"
+            str += "<li class='list-group-item list-group-item-success'> Gift " + (i + 1) + " : " + this.gifts[i].constructor.name + "</li>"
         }
         return str
     }
